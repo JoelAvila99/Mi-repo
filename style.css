@@ -281,9 +281,12 @@ body {
   text-shadow: 0 0 1px rgba(253, 253, 253, 0.281);
   margin-top: 20px;
 }
+.ingreso label {
+  color: rgb(250, 253, 255);
+}
 
 .form_contactanos {
-  max-width: 500px;
+  max-width: 400px;
   margin: auto;
   font-family: "Poppins", sans-serif;
   background-color: rgba(0, 0, 0, 0.3607843137);
@@ -330,7 +333,7 @@ textarea {
   background-color: rgba(0, 0, 0, 0.3607843137);
   padding: 20px;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.954);
-  margin-bottom: 20px;
+  margin-bottom: 100px;
   border-radius: 10%;
 }
 
@@ -345,9 +348,10 @@ textarea {
 
 .form_ingreso h2 {
   text-align: center;
-  font-weight: 600;
+  font-weight: 100;
   padding: 10px;
-  text-shadow: 0 0 1px rgb(217, 201, 201);
+  text-shadow: 0 0 1px rgb(20, 20, 20);
+  color: #e4dede;
 }
 
 .ingreso {
@@ -355,8 +359,8 @@ textarea {
 }
 
 .ingreso img {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: auto;
   border-radius: 50%;
   box-shadow: 0 25px 45px black;
   margin: auto;
