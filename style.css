@@ -225,7 +225,7 @@ body {
 }
 
 /*ESTE ESTILO APLICA A PAGE MENU*/
-.grid {
+/* .grid {
   width: 100%;
   height: auto;
   display: flex;
@@ -239,6 +239,8 @@ body {
   height: auto;
   text-align: center;
   font-family: poppins;
+  background-color: transparent;
+
 }
 
 .grid img {
@@ -246,12 +248,19 @@ body {
   border-radius: 20%;
 }
 
-.card h1 {
-  background-color: #422c2c;
-  color: white;
-  margin-top: 10px;
-}
 
+*/
+.grilla {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card  {
+  background: radial-gradient(rgb(86, 51, 51) , black);
+  color: #e4dede;
+  margin: auto;
+  border-radius: 10%;
+}
 /*////////// ESTE ESTILO SE APLICA A PAGE CONTACTANOS/////////////////*/
 /* ESTE ESTILO SE APLICA A FORMULARIO E ICONS REDES*/
 .contact {
